@@ -14,3 +14,4 @@ It works with python 3.7.x. The design primarily involves creating a multithread
 
 Here is the flow chart of the complete process: -
 
+![alt text](https://github.com/gchandn3413/weather_data/blob/master/img.png)
