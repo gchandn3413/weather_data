@@ -14,7 +14,7 @@ It works with python 3.7.x. The design primarily involves creating a multithread
 
 Here is the flow chart of the complete process: -
 
-![alt text](https://github.com/gchandn3413/weather_data/blob/master/img.png)
+![alt text](https://github.com/gchandn3413/weather_data/blob/master/img_1.png)
 
 # Limitations
 1. Since the objective to present the approach, the script currently generates 10K lines of weather data and can be increased to a greater extent. 
