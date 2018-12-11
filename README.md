@@ -20,3 +20,8 @@ Here is the flow chart of the complete process: -
 1. Since the objective to present the approach, the script currently generates 10K lines of weather data and can be increased to a greater extent. 
 2. The script currenlty parallelizes with 2 threads, however the number of threads can be increased depending upon the cores in the machine.
 3. The location attribute is random picked from among the list of the locations. The actual location could be different from the latitudes and longitudes. 
+
+# Python Script Execution
+Please execute the below command for weather generation script execution
+
+python weather_generator.py -i <path_of_input_geo_tif_file> -o <location_of_output_weather_data_file>
