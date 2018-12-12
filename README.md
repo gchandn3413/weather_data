@@ -47,14 +47,4 @@ python test_weather_generator.py
 
 # Test Results
 
-  Testing Humidity****
-  Testing Line Count****
-  Testing local time****
-  Testing position****
-  Testing pressure****
-  Testing temperature****
-.
-----------------------------------------------------------------------
-Ran 6 tests in 1.142s
-
-OK
+![alt text](https://github.com/gchandn3413/weather_data/blob/master/test_results.png)
