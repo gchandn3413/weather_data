@@ -44,3 +44,17 @@ There are 6 test methods which covers the overall testing for the weather genera
 Below is the command for executing the test script. The script is present in src directory.
 
 python test_weather_generator.py
+
+# Test Results
+
+****Testing Humidity****
+.****Testing Line Count****
+.****Testing local time****
+.****Testing position****
+.****Testing pressure****
+.****Testing temperature****
+.
+----------------------------------------------------------------------
+Ran 6 tests in 1.142s
+
+OK
