@@ -19,13 +19,13 @@ Here is the flow chart of the complete process: -
 # Limitations
 1. Since the objective to present the approach, the script currently generates 10K lines of weather data and can be increased to a greater extent. 
 2. The script currenlty parallelizes with 2 threads, however the number of threads can be increased depending upon the cores in the machine.
-3. The location attribute is random picked from among the list of the locations. The actual location could be different from the latitudes and longitudes. 
+3. The location attribute is random picked from the list of the locations. The actual location could be different from the latitudes and longitudes. 
 
 # Installation
 There is an install_packages.sh script which installs the necessary packages. Essentionally, there are only 3 packages which are required apart from python 3.7.x which are - osgeo, shutil and glob2.
 
 # Python Script Execution
-Please execute the below command for weather generation script execution
+Please execute the below command for weather generation script execution. The script is present in src directory.
 
 python weather_generator.py -i <path_of_input_geo_tif_file> -o <location_of_output_weather_data_file>
 
@@ -41,6 +41,6 @@ There are 6 test methods which covers the overall testing for the weather genera
 6. test_position - This function is used to test whether the position(lat & long) is in the specified range or not.
 
 # Executing test script
-Below is the command for executing the test script:
+Below is the command for executing the test script. The script is present in src directory.
 
 python test_weather_generator.py
